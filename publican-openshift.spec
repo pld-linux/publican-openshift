@@ -1,15 +1,15 @@
 Summary:	Publican documentation template files for OpenShift
 Summary(pl.UTF-8):	Pliki szablonów dokumentacji Publicana dla projektu OpenShift
 Name:		publican-openshift
-Version:	0.8
+Version:	0.13
 Release:	1
 License:	CC-BY-SA
 Group:		Development/Tools
 Source0:	https://fedorahosted.org/releases/p/u/publican/%{name}-%{version}.tgz
-# Source0-md5:	55f3ef63018580f0e58e9f349d28d74d
+# Source0-md5:	2e43ee8da07fdee47fe9ddf31d833fdf
 URL:		https://publican.fedorahosted.org/
-BuildRequires:	publican >= 2.5
-Requires:	publican >= 2.5
+BuildRequires:	publican >= 3.0
+Requires:	publican >= 3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
